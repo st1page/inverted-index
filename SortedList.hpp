@@ -157,6 +157,9 @@ public:
     ~SortedList(){
         _clear();
     }
+    void push_back(T x){
+        _push_back(x);
+    }
     void clear(){
         _clear();
     }
